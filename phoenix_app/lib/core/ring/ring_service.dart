@@ -153,11 +153,9 @@ class RingService {
 
     _connectionState.value = RingConnectionState.scanning;
 
-    await UniversalBle.startScan(
-      scanFilter: ScanFilter(
-        withServices: [kRingServiceUuid],
-      ),
-    );
+    // No service UUID filter — many R10 firmwares don't advertise it.
+    // Name-based filtering in _onScanResult handles device matching.
+    await UniversalBle.startScan();
 
     // Auto-stop after timeout
     Future.delayed(timeout, () {

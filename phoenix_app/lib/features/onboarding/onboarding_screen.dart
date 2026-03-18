@@ -917,7 +917,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                           decoration: BoxDecoration(
                             border: Border.symmetric(
                               horizontal: BorderSide(
-                                color: Colors.white.withAlpha(40),
+                                color: Theme.of(ctx).colorScheme.onSurface.withAlpha(40),
                                 width: 1,
                               ),
                             ),
@@ -943,8 +943,8 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                                       ? FontWeight.w700
                                       : FontWeight.w400,
                                   color: i == selectedIndex
-                                      ? Colors.white
-                                      : Colors.white.withAlpha(90),
+                                      ? Theme.of(ctx).colorScheme.onSurface
+                                      : Theme.of(ctx).colorScheme.onSurface.withAlpha(90),
                                 ),
                               ),
                             ),
