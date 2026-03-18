@@ -35,7 +35,10 @@ dependencies:
   google_fonts: ^6.2.1
   flutter_animate: ^4.5.2
   tdesign_flutter:
-    path: ../tdesign-flutter/tdesign-component
+    git:
+      url: https://github.com/Tencent/tdesign-flutter.git
+      ref: c7441172b1b2bebcdb31763322e43b126c689ffa
+      path: tdesign-component
 
   # TTS
   flutter_tts: ^4.2.0

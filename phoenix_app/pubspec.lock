@@ -1104,9 +1104,11 @@ packages:
   tdesign_flutter:
     dependency: "direct main"
     description:
-      path: "../tdesign-flutter/tdesign-component"
-      relative: true
-    source: path
+      path: tdesign-component
+      ref: c7441172b1b2bebcdb31763322e43b126c689ffa
+      resolved-ref: c7441172b1b2bebcdb31763322e43b126c689ffa
+      url: "https://github.com/Tencent/tdesign-flutter.git"
+    source: git
     version: "0.2.7"
   tdesign_flutter_adaptation:
     dependency: transitive
