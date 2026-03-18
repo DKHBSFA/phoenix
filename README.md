@@ -160,6 +160,23 @@ Week 0 calibration is mandatory for beginners. No max testing — submaximal est
 
 ---
 
+## Releases
+
+Releases are automated via GitHub Actions. To create a new release:
+
+```bash
+git tag v1.1.0
+git push --tags
+```
+
+This builds and publishes:
+- **Android APK** (debug signed)
+- **Linux x64 bundle** (tar.gz)
+
+Download the latest release from the [Releases page](https://github.com/DKHBSFA/phoenix/releases).
+
+---
+
 ## License
 
 Open source. License TBD.
