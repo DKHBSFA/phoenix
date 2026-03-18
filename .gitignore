@@ -1,0 +1,19 @@
+.claude/settings.local.json
+.claude/docs/session-notes/*.md
+!.claude/docs/session-notes/.gitkeep
+.emmet/
+.forge/
+.seurat/
+.orson/
+.scribe/
+.ghostwriter/
+.heimdall/state.json
+.heimdall/findings.json
+node_modules/
+__pycache__/
+
+# Excluded from repo
+Documento_sanitario_*.pdf
+phoenix-debug.apk
+BitNet/
+tdesign-flutter/
