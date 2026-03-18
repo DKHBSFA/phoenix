@@ -64,7 +64,7 @@ The Phoenix Protocol is built on **120+ verified studies** across three research
 
 No parameter without a source. No tradition excluded.
 
-Full protocol with citations: [`references/phoenix-protocol.md`](references/phoenix-protocol.md)
+Full protocol with 120+ citations available in the app under the "Protocollo" section.
 
 ---
 

@@ -1,14 +1,12 @@
-.claude/settings.local.json
-.claude/docs/session-notes/*.md
-!.claude/docs/session-notes/.gitkeep
+.claude/
+references/
 .emmet/
 .forge/
 .seurat/
 .orson/
 .scribe/
 .ghostwriter/
-.heimdall/state.json
-.heimdall/findings.json
+.heimdall/
 node_modules/
 __pycache__/
 
